@@ -3,7 +3,9 @@
  
 
 # usage
-include thats index.php
+1. Download Index.php
+2. Copy sainte lague function
+3. initiate variable input
 
 $vote = array(0 => array('partai_name' => 'gaul', 'votes' => 30000),
                 1 => array('partai_name' => 'kece', 'votes' => 5000),
@@ -12,4 +14,4 @@ $vote = array(0 => array('partai_name' => 'gaul', 'votes' => 30000),
                 4 => array('partai_name' => 'syantiq', 'votes' => 7500) );
 
 $seats_amount = 7;
-echo sainte_lague($vote,$seats_amount);
+4. run thats function echo sainte_lague($vote,$seats_amount);
